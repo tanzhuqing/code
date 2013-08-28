@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "树结构操作", "树结构操作\树结构操作.vcxproj", "{26A69486-B0C6-49D1-8741-2F50DDF13282}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26A69486-B0C6-49D1-8741-2F50DDF13282}.Debug|Win32.ActiveCfg = Debug|Win32
+		{26A69486-B0C6-49D1-8741-2F50DDF13282}.Debug|Win32.Build.0 = Debug|Win32
+		{26A69486-B0C6-49D1-8741-2F50DDF13282}.Release|Win32.ActiveCfg = Release|Win32
+		{26A69486-B0C6-49D1-8741-2F50DDF13282}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
