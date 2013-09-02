@@ -1,3 +1,4 @@
+from pysqlite2 import dbapi2 as sqlite
 import re
 import math
 
@@ -31,6 +32,12 @@ class classifier:
     def getthreshold(self,cat):
         if cat not in self.thresholds:return 1.0
         return self.thresholds[cat]
+
+    def setdb(self,dbfile):
+        self.con = sqlite.connect(dbfile)
+        self.con.execute('create table if not exists fc(feature,category,count)')
+        self.con.execute('create table if not exists cc(category,count)')
+        
 
     def incf(self,f,cat):
         self.fc.setdefault(f,{})
